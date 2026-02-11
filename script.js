@@ -10,4 +10,23 @@ password.addEventListener("input",()=>{
   if (/[A-Z]/.test(value)) score++;
   if (/[0-9]/.test(value)) score++;
   if (/[^A-Za-z0-9]/.test(value)) score++;
+
+  if (score<=1){
+    strength.style.width = "25%";
+    strength.style.background = "red";
+    message.innerText = "Weak Pasword";
+    message.style.color = "red";
+  }
+  else if (score==2 || score==3){
+    strength.style.width = "60%";
+    strength.style.background = "orange";
+    message.innerText = "Medium Pasword";
+    message.style.color = "orange";}
+
+  else{
+    strength.style.width = "100%";
+    strength.style.background = "green";
+    message.innerText = "Weak Pasword";
+    message.style.color = "green";
+  }  
 })
