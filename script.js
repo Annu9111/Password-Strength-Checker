@@ -1,5 +1,5 @@
 const password = document.getElementById("password");
-const strength = document.getElementById("strenght");
+const strength = document.getElementById("strength");
 const message = document.getElementById("message");
 
 password.addEventListener("input",()=>{
@@ -26,7 +26,7 @@ password.addEventListener("input",()=>{
   else{
     strength.style.width = "100%";
     strength.style.background = "green";
-    message.innerText = "Weak Pasword";
+    message.innerText = "Strong Password";
     message.style.color = "green";
   }  
 })
