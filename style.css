@@ -11,5 +11,45 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
-   
+
+}
+
+.box{
+  background: white;
+  padding: 30px;
+  width:300px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 15px;
+}
+
+input{
+  width:100%;
+  padding:12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.strenght-bar{
+  width:100%;
+  height:8px;
+  background: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.strenght-bar span{
+  height:100%;
+  width:0%;
+  display: block;
+  translate:0.3s;
+}
+
+#message{
+  margin-top: 10px;
+  font-weight: bold;
 }
