@@ -6,8 +6,7 @@ This project evaluates the strength of a password in real-time and provides inst
 ---
 ## 🌐 Live Demo
 
-👉 Add your deployed link here
-Example: https://password-strength-checker-five-pi.vercel.app/
+👉 https://password-strength-checker-five-pi.vercel.app/
 
 ---
 ## 🚀 Features
